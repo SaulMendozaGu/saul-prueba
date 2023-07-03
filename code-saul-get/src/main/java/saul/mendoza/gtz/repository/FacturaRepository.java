@@ -1,0 +1,10 @@
+package saul.mendoza.gtz.repository;
+
+import io.quarkus.hibernate.orm.panache.PanacheRepository;
+import jakarta.enterprise.context.ApplicationScoped;
+import saul.mendoza.gtz.entity.Factura;
+
+@ApplicationScoped
+public class FacturaRepository implements PanacheRepository <Factura>{
+
+}
